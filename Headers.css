@@ -1,0 +1,49 @@
+
+  * {
+      box-sizing: border-box;
+    }
+
+  header {
+           background-color: black;
+           color: white;
+           text-align: center;
+           clear: both;
+           padding: 30px;
+           height: 30%;
+         }
+
+  footer {
+           background-color: black;
+           color: white;
+           text-align: center;
+           clear: both;
+           padding: 30px;
+           height: 10%;
+         }
+
+  div.whole {
+              width: 100%;
+              height: 100%;
+            }
+
+  div.main {
+             height: 60%;
+             padding-top: 100px;
+           }
+
+  section {
+            width: 80%;
+            float: left;
+            text-align: center;
+          }
+  p {
+      color: black;
+    }
+
+  aside {
+          width: 20%;
+          float: left;
+          text-align: justify;
+          border-right: 1px solid;
+          padding: 5px;
+        }

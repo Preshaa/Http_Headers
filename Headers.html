@@ -1,0 +1,35 @@
+<!Doctype html>
+  <html>
+    <head>
+	    <title> HTTP Headers </title>
+      <link rel="stylesheet" type="text/css" href="Headers.css">
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="Headers.js"></script>
+    </head>
+    <body>
+      <div class="whole">
+        <header>
+          <h1>Get HTTP Headers</h1>
+        </header>
+        <div class="main">
+          <aside>
+            <div>
+                  HTTP headers allow the client and the server to pass additional information with the request or the response. A request header consists of its case-insensitive name followed by a colon ' : ', then by its value (without line breaks).
+            </div>
+          </aside>
+          <section>
+            <form method="GET">
+              <input type="url" name="url" placeholder="enter url" id="url">
+              <input type="button" id="click" value="submit">  
+              <p id="get_headers" content=""></p>
+            </form>
+          </section>
+        </div>
+        <footer>
+          <div> 
+                Copyright&copy;Innoraft.com
+          </div>
+        </footer>
+      </div>
+    </body>
+  </html>
